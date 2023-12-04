@@ -13,7 +13,17 @@ function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Beth Ravelle</small>
+          <small>
+            Coded by Beth Ravelle and{" "}
+            <a
+              href="https://github.com/BethRavelle/dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open sourced
+            </a>{" "}
+            on Github
+          </small>
         </footer>
       </div>
     </div>
